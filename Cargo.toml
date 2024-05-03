@@ -1,0 +1,10 @@
+[package]
+name = "super-barnacle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+notify = "6.1.1"
+clap = { version = "4.5.4", features = ["derive"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
